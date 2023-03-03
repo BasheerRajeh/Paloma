@@ -5,13 +5,21 @@
 }
 
 *, *::before, *::after {
-    font-size: 62.5%;
     box-sizing: border-box;
 }
 
+html {
+    font-size: 62.5%;
+}
+
 body {
-    font-size: 1.6rem;
+    font-size: 2.4rem;
     font-family: 'Titillium Web', sans-serif;
+}
+
+::selection {
+    background: var(--color-primary);
+    color: var(--color-accent);
 }
 
 /* Typography */
@@ -176,4 +184,15 @@ p {
     .btn-up-container {
         bottom: 150px;
     }
+}
+
+/* Lists */
+.list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list--inline .list__item {
+    display: inline-block;
+    margin-right: 2rem;
 }
