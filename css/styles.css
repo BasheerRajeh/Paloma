@@ -234,3 +234,34 @@ p {
     line-height: 25px;
     margin: 0;
 }
+
+/* Testimonial */
+.testimonial {
+    position: relative;
+    width: 100%;
+}
+
+.testimonial__content {
+    position: absolute;
+    top: 8%;
+    left: 1%;
+    margin: 0;
+    padding: 4rem;
+    font-size: 1.6rem;
+    line-height: 25px;
+    overflow: hidden;
+}
+
+.testimonial__author {
+    position: absolute;
+    font-size: 1.6rem;
+    font-weight: 700;
+    bottom: 8%;
+    right: 10%;
+}
+
+.testimonial__decoration {
+    position: absolute;
+    left: -100px;
+    bottom: 0;
+}
