@@ -305,3 +305,19 @@ p {
         grid-template-columns: repeat(3, 1fr);
     }
 }
+
+/* building-store */
+.building-store {
+    position: relative;
+    width: 100%;
+}
+
+.building-store__title {
+    position: absolute;
+    font-size: 1.2rem;
+    top: 12.5%;
+    left: 42%;
+    font-weight: 700;
+    transform: rotate(8deg);
+    letter-spacing: 0.12px;
+}
