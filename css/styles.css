@@ -321,3 +321,23 @@ p {
     transform: rotate(8deg);
     letter-spacing: 0.12px;
 }
+
+/* Operation Order */
+.operation-order {
+    position: relative;
+    width: 100%;
+}
+
+.operation-order__image {
+    width: 100%;
+    object-fit: cover;
+}
+
+.operation-order__icon {
+    position: absolute;
+    bottom: 18%;
+    right: -100%;
+    width: 70px;
+    height: 70px;
+    z-index: 1;
+}
