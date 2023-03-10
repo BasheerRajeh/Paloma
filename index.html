@@ -18,34 +18,45 @@
 
 </head>
 
-<body class="container">
-    <nav class="nav collapsible">
-        <a class="nav__brand" href="/">
-            <div class="labeld-icon">
-                <picture>
-                    <source type="image/webp" srcset="images/logo@1x.webp 1x, images/logo@2x.webp 2x" />
-                    <source type="image/png" srcset="images/logo@1x.png 1x, images/logo@2x.png 2x" />
-                    <img class="icon--logo" src="images/logo@x2.png" alt="" />
-                </picture>
-                <span class="labeld-icon__label label--logo">Paloma | <span class="ar">بالوما</span></span>
+<body>
+    <div class="container grid grid--1x2">
+        <div class="building-store hero__image">
+            <img class="building-store__store" src="images/co-builder-1.svg" alt="">
+            <p class="building-store__title">Search in Paloma</p>
+        </div>
+        <header class="block__header hero__content">
+            <h1 class="block__heading">
+                Paloma Application <br />All in one!
+            </h1>
+            <p class="hero__tagline">
+                We are on a mission to change the way people THINK about Shopping.
+            </p>
+            <div class="features">
+                <div class="feature labeld-icon">
+                    <svg class="labeld-icon__icon icon--larg">
+                        <use href="images/icons.svg#pay-cash"></use>
+                    </svg>
+                    <span class="labeld-icon__label">Cash on delivery </span>
+                </div>
+                <div class="feature labeld-icon">
+                    <svg class="labeld-icon__icon icon--larg">
+                        <use href="images/icons.svg#van-fast"></use>
+                    </svg>
+                    <span class="labeld-icon__label">Fast Delivery</span>
+                </div>
+                <div class="feature labeld-icon">
+                    <svg class="labeld-icon__icon icon--larg">
+                        <use href="images/icons.svg#pay-card"></use>
+                    </svg>
+                    <span class="labeld-icon__label">Online Payment </span>
+                </div>
             </div>
-        </a>
-        <svg class="icon nav__toggler">
-            <use href="images/icons.svg#menu"></use>
-        </svg>
-        <ul class="list nav__list collapsible__content collapsible--expanded">
-            <li class="nav__item"><a href="#">Home</a></li>
-            <li class="nav__item"><a href="#">Contact</a></li>
-            <li class="nav__item"><a href="#">Download</a></li>
-            <li class="nav__item"><a href="#">Product</a></li>
-            <li class="nav__item"><a href="#">Help Center</a></li>
-            <li class="nav__item"><a href="#">Paloma Store</a></li>
-            <li class="nav__item"><a href="#">Items</a></li>
-        </ul>
-    </nav>
+            <div class="hero__btn">
+                <a target="_blank" href="https://palomasy.com" class="btn btn--primary">Get Started</a>
+            </div>
+        </header>
 
-    <script src="js/main.js"></script>
-
+    </div>
 </body>
 
 </html>
