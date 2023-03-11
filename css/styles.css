@@ -219,12 +219,21 @@ p {
 
 
 /* Services */
+
+.services {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+    flex-basis: 100%;
+}
+
 .service {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    text-align: center;
+    width: auto;
 }
 
 .service__image {
@@ -237,12 +246,23 @@ p {
     font-weight: 700;
     line-height: 30px;
     margin: 2rem 1rem;
+    text-align: center;
 }
 
 .service__content {
     font-size: 1.6rem;
     line-height: 25px;
     margin: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .services {
+        flex-direction: row;
+    }
+
+    .service {
+        width: 100%;
+    }
 }
 
 /* Testimonial */
@@ -465,7 +485,7 @@ p {
 
 @media screen and (min-width: 768px) {
     .block {
-        padding: 10rem 20rem;
+        padding: 10rem 3rem;
     }
 
     .block__heading {
