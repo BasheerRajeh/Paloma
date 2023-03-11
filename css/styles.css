@@ -268,7 +268,7 @@ p {
 /* Testimonial */
 .testimonial {
     position: relative;
-    width: 100%;
+    max-width: 300px;
 }
 
 .testimonial__content {
@@ -754,4 +754,7 @@ p {
         justify-items: center;
         /* align-items: initial; */
     }
+}
+
+.grid.block__body {
 }
