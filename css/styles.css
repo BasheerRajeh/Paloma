@@ -668,3 +668,34 @@ p {
         padding-top: 0;
     }
 }
+
+
+.operation-order {
+    padding: 2rem 4rem;
+}
+
+.order-operation {
+    /* padding: 0 2rem; */
+    position: relative;
+}
+
+.order-operation__img {
+    width: 100%;
+}
+
+.order-operation__body {
+    padding: 0 2rem;
+}
+
+.order-operation__icon {
+    position: absolute;
+    right: 50%;
+    bottom: 0%;
+}
+
+@media screen and (min-width: 768px) {
+    .order-operation__body {
+        padding: 0 4rem;
+    }
+
+}

@@ -20,87 +20,35 @@
 
 <body>
 
-    <div class="container block">
-        <header class="block__header">
-            <h2 class="block__heading">What We Offer</h2>
-        </header>
-        <p class="block__body">
-            In this section, we provide you with all your necessities such as clothes, electrical tools, furniture, and
-            a lot of products
-        </p>
-        <div class="services">
-            <figure class="service">
-                <picture>
-                    <source type="image/webp" srcset="images/service-1.webp 1x" />
-                    <source type="image/png" srcset="images/service-1.png 1x" />
-                    <img class="service__image" src="images/service-1.png" alt="Mobile application browsing products"
-                        aria-labelledby="service-title">
-                </picture>
-                <figcaption>
-                    <h3 class="service__title" id="service-title">Paloma Store
-                    </h3>
-                    <p class="service__content">In this section, we provide you with all your necessities such as
-                        clothes,
-                        electrical tools, furniture, and a lot of products</p>
-                </figcaption>
-            </figure>
-            <figure class="service">
-                <picture>
-                    <source type="image/webp" srcset="images/service-2.webp 1x" />
-                    <source type="image/png" srcset="images/service-2.png 1x" />
-                    <img class="service__image" src="images/service-2.png" alt="Mobile application browsing products"
-                        aria-labelledby="service-title">
-                </picture>
-                <figcaption>
-                    <h3 class="service__title" id="service-title">Grocery</h3>
-                    <p class="service__content">Here we also provide you with all the groceries you need, vegetables,
-                        oils, fruits, and everything that is available in groceries and daily needs, with fast delivery!
-                    </p>
-                </figcaption>
-            </figure>
-            <figure class="service">
-                <picture>
-                    <source type="image/webp" srcset="images/service-3.webp 1x" />
-                    <source type="image/png" srcset="images/service-3.png 1x" />
-                    <img class="service__image" src="images/service-3.png" alt="Mobile application browsing products"
-                        aria-labelledby="service-title">
-                </picture>
-                <figcaption>
-                    <h3 class="service__title" id="service-title">Delivery</h3>
-                    <p class="service__content">You can deliver any of your items anywhere! Just write down the
-                        specifications and dimensions
-                    </p>
-                </figcaption>
-            </figure>
-            <figure class="service">
-                <picture>
-                    <source type="image/webp" srcset="images/service-4.webp 1x" />
-                    <source type="image/png" srcset="images/service-4.png 1x" />
-                    <img class="service__image" src="images/service-4.png" alt="Mobile application browsing products"
-                        aria-labelledby="service-title">
-                </picture>
-                <figcaption>
-                    <h3 class="service__title" id="service-title">Payment</h3>
-                    <p class="service__content">Pay your home and mobile bills from anywhere, no need to go and stop in
-                        the queue!</p>
-                </figcaption>
-            </figure>
+    <div class="container grid grid--1x2 operation-order">
+        <div class="order-operation">
+            <img class="order-operation__img" src="images/web-screen.png" alt="">
+            <svg class="icon icon--larg order-operation__icon">
+                <use href="images/icons.svg#motorcycle"></use>
+            </svg>
         </div>
-    </div>
-
-
-    <!-- <section class="block block--primary ">
-        <div class="container grid grid--1x2">
-            <header class="block__header">
-                <h2 class="block__heading">With the Right Online APP, Great Things Can Happen!</h2>
+        <div class="order-operation__body">
+            <header class="block__header order-operation__header">
+                <h2 class="block__heading">
+                    Simple steps and we will send your order to your place
+                </h2>
             </header>
             <p class="block__body">
-                Paloma team is working on research and development of a way to complete daily needs, we have a
-                highly
-                experienced team in all fields, and we are working for your convenience :)
+                All you have to do is choose the order you want from our store, regardless of whether it is a
+                service or
+                an item
             </p>
+            <div class="features">
+                <div class="feature labeld-icon">
+                    <svg class="labeld-icon__icon">
+                        <use href="images/icons.svg#all-in-one"></use>
+                    </svg>
+                    <span class="labeld-icon__label">All-In-One </span>
+                </div>
+            </div>
         </div>
-    </section> -->
+
+    </div>
 </body>
 
 </html>
