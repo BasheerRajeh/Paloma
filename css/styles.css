@@ -440,18 +440,23 @@ p {
 }
 
 .block__header {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
     text-align: center;
 }
 
 .block__heading {
+    max-width: 350px;
+    text-align: left;
     margin-top: 0;
-    line-height: 30px;
+    font-size: 3rem;
+    line-height: 45px;
 }
 
 .block__body {
-    line-height: 27px;
-    font-size: 1.7rem;
+    line-height: 30px;
+    font-size: 2rem;
+    margin-top: 0;
+
 }
 
 .block--primary {
@@ -459,6 +464,10 @@ p {
 }
 
 @media screen and (min-width: 768px) {
+    .block {
+        padding: 10rem 20rem;
+    }
+
     .block__heading {
         line-height: 50px;
     }
@@ -562,13 +571,13 @@ p {
 
 /* Hero */
 
-.block__heading {
+.heron__heading {
+    max-width: none;
     text-align: left;
     padding: 4rem 4rem 1rem;
     font-size: 4.5rem;
     line-height: 50px;
 }
-
 
 .hero__image {
     min-width: 550px;
