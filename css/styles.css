@@ -699,3 +699,59 @@ p {
     }
 
 }
+
+.bg {
+    display: inline-block;
+    padding: 10px;
+}
+
+.bg-bank {
+    width: 160px;
+    height: 160px;
+    background: url('../images/css_sprites.webp') -210px -10px;
+}
+
+.bg-cash {
+    width: 180px;
+    height: 180px;
+    background: url('../images/css_sprites.webp') -10px -10px;
+}
+
+.bg-crypto {
+    width: 160px;
+    height: 160px;
+    background: url('../images/css_sprites.webp') -10px -210px;
+}
+
+.bg-e_cash {
+    width: 160px;
+    height: 160px;
+    background: url('../images/css_sprites.webp') -190px -210px;
+}
+
+.bg-p2p {
+    width: 160px;
+    height: 160px;
+    background: url('../images/css_sprites.webp') -390px -10px;
+}
+
+.bg-telecom {
+    width: 160px;
+    height: 160px;
+    background: url('../images/css_sprites.webp') -390px -190px;
+}
+
+.offers {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: end;
+    justify-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .offers {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        /* align-items: initial; */
+    }
+}
