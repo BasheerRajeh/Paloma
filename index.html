@@ -18,22 +18,73 @@
 
 </head>
 
-<body>
+<body style="height: 100vh;">
 
-    <div class="building-app">
-        <div class="container block">
-            <header class="block__header building-app__header">
-                <h2 class="block__heading building-app__heading">Get ready to shop with us! </h2>
-                <button class="btn btn--accent">Get Started</button>
-            </header>
-            <div class="block__body">
-                <div class="building-app__img">
-                    <img src="images/co-builder-2.svg" alt="" srcset="">
+    <footer class="block block--primary footer">
+        <div class="container grid footer__sections">
+            <section class="collapsible collapsible--expanded footer__section">
+                <div class="collapsible__header">
+                    <h2 class="collapsible__heading footer__heading">Quick Links</h2>
+                    <svg class="icon collapsible__chevron">
+                        <use href="images/icons.svg#chevron-up"></use>
+                    </svg>
                 </div>
+                <div class="collapsible__content">
+                    <ul class="list">
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="collapsible footer__section">
+                <div class="collapsible__header">
+                    <h2 class="collapsible__heading footer__heading">Download</h2>
+                    <svg class="icon collapsible__chevron">
+                        <use href="images/icons.svg#chevron-up"></use>
+                    </svg>
+                </div>
+                <div class="collapsible__content">
+                    <ul class="list">
+                        <li><a href="#">Android</a></li>
+                        <li><a href="#">IOS</a></li>
+                    </ul>
+                </div>
+            </section>
+            <section class="collapsible footer__section">
+                <div class="collapsible__header">
+                    <h2 class="collapsible__heading footer__heading">Support</h2>
+                    <svg class="icon collapsible__chevron">
+                        <use href="images/icons.svg#chevron-up"></use>
+                    </svg>
+                </div>
+                <div class="collapsible__content">
+                    <ul class="list">
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Knowledge Base</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </section>
+            <div class="footer__brand">
+                <a class="nav__brand" href="/">
+                    <div class="labeld-icon">
+                        <svg class=" icon icon--logo">
+                            <use href="images/icons.svg#logo"></use>
+                        </svg>
+                        <span class="labeld-icon__label label--logo footer__brand--logo">Paloma | <span
+                                class="ar">بالوما</span></span>
+                    </div>
+                </a>
             </div>
         </div>
-        <div class="building-app__ground"></div>
-    </div>
+        <div class="footer__copyright">
+            <a class="footer__copyright__link" href="mailto:muhammadbasheerrajeh@hotmail.com">Created by Basheer
+                Rajeh</a>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
 
 </body>
 
