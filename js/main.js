@@ -18,12 +18,15 @@ window.addEventListener('scroll', function () {
   lastScrollTop = scrollTop;
 });
 
-function scrollToTop() {
+
+var scrollToTopBtn = document.querySelector('.btn-container.btn-up-container button');
+scrollToTopBtn.addEventListener('click', function () {
   window.scrollTo({
     top: 0,
     behavior: 'smooth'
   });
-}
+});
+
 
 const icon = document.querySelector('.order-operation__icon');
 const observer = new IntersectionObserver((entries) => {
