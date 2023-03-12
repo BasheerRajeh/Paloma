@@ -280,7 +280,7 @@ p {
     top: 8%;
     left: 1%;
     margin: 0;
-    padding: 4rem;
+    padding: 1rem 2rem;
     font-size: 1.6rem;
     line-height: 25px;
     overflow: hidden;
@@ -298,6 +298,12 @@ p {
     position: absolute;
     left: -100px;
     bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .testimonial__content {
+        line-height: 30px;
+    }
 }
 
 /* Labeld icon */
@@ -401,6 +407,10 @@ p {
     z-index: 1;
 }
 
+.order-operation__description {
+    font-size: 2rem;
+}
+
 .icon {
     width: 40px;
     height: 40px;
@@ -469,7 +479,7 @@ p {
 }
 
 .block__heading {
-    max-width: 350px;
+    max-width: 390px;
     text-align: left;
     margin-top: 0;
     font-size: 3rem;
@@ -554,6 +564,9 @@ p {
     opacity: 0.5;
     transition: box-shadow 0.15s;
     cursor: pointer;
+    background: transparent;
+    outline: none;
+    border: none;
 }
 
 
@@ -576,7 +589,7 @@ p {
     }
 
     .nav__item>a {
-        font-size: 1.5rem;
+        font-size: 1.8rem;
         white-space: nowrap;
         font-weight: 700;
         line-height: normal;
@@ -604,8 +617,8 @@ p {
     line-height: 50px;
 }
 
-.hero__image {
-    min-width: 550px;
+.hero__image>img {
+    width: 100%;
 }
 
 .hero__tagline {
@@ -631,16 +644,18 @@ p {
 .features {
     display: flex;
     flex-direction: column;
-    padding: 3rem 4rem;
+    flex-wrap: wrap;
 }
 
 .feature {
-    margin: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2rem;
 }
 
 @media screen and (min-width: 768px) {
-    .hero__image {
-        min-width: none;
+    .hero__image>img {
+        min-width: 550px;
+        width: 100%;
     }
 
     .hero__content {
@@ -663,7 +678,7 @@ p {
 
     .features {
         flex-direction: row;
-        padding: 2rem 2rem
+        padding: 2rem 0;
     }
 
 }
@@ -682,6 +697,10 @@ p {
 .order-operation {
     /* padding: 0 2rem; */
     position: relative;
+}
+
+.order-operation__heading {
+    font-size: 3rem;
 }
 
 .order-operation__img {
@@ -766,6 +785,10 @@ p {
     position: relative;
 }
 
+.building-app>.block {
+    padding-bottom: 0;
+}
+
 .building-app__heading {
     max-width: unset;
     text-align: center;
@@ -776,7 +799,7 @@ p {
     position: absolute;
     height: 150px;
     width: 100%;
-    bottom: 50px;
+    bottom: 0;
     z-index: -1;
     background: var(--color-secondary);
 }
