@@ -1,6 +1,6 @@
 :root {
-    --color-primary: #ffbf23;
-    --color-secondary: #f8c700;
+    --color-primary: #f8c700;
+    --color-secondary: #ffbf23;
     --color-accent: #000;
     --font-primary: 'Space Grotesk', sans-serif;
     --font-secondary: 'Titillium Web', sans-serif;
@@ -81,7 +81,7 @@ p {
     font-family: var(--font-primary);
     text-align: center;
     cursor: pointer;
-    border-radius: 20px;
+    border-radius: 10px;
     padding: 1.8rem 5rem;
     border: 2px solid #000;
     box-shadow: 0 0 10px 10px rgb(0 0 0 / 4%);
@@ -489,6 +489,7 @@ p {
     }
 
     .block__heading {
+        font-size: 3.8rem;
         line-height: 50px;
     }
 
@@ -756,5 +757,22 @@ p {
     }
 }
 
-.grid.block__body {
+
+.building-app {
+    position: relative;
+}
+
+.building-app__heading {
+    max-width: unset;
+    text-align: center;
+}
+
+
+.building-app__ground {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    bottom: 50px;
+    z-index: -1;
+    background: var(--color-secondary);
 }
