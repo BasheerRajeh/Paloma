@@ -140,6 +140,7 @@ p {
     position: fixed;
     right: 20px;
     z-index: 9999;
+    opacity: 0;
 }
 
 .btn-chat-container {
@@ -273,6 +274,12 @@ p {
 .testimonial {
     position: relative;
     max-width: 300px;
+    transition: transform 0.2s ease-out;
+
+}
+
+.testimonial:hover {
+    transform: scale(1.05);
 }
 
 .testimonial__content {
@@ -713,8 +720,16 @@ p {
 
 .order-operation__icon {
     position: absolute;
+    opacity: 0;
+    transform: translateX(100px);
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
     right: 50%;
     bottom: 0%;
+}
+
+.order-operation__icon.show {
+    opacity: 1;
+    transform: translateX(0);
 }
 
 @media screen and (min-width: 768px) {
@@ -899,4 +914,8 @@ p {
     .footer__heading {
         font-size: 1.6rem;
     }
+}
+
+.btn-container.show {
+    opacity: 1;
 }
