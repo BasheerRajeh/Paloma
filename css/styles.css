@@ -271,9 +271,16 @@ p {
 }
 
 /* Testimonial */
+
+.testimonials {
+    grid-template-columns: minmax(200px, 1fr);
+}
+
 .testimonial {
     position: relative;
     max-width: 300px;
+    width: 100%;
+    margin: 1rem auto;
     transition: transform 0.2s ease-out;
 
 }
@@ -702,7 +709,8 @@ p {
 }
 
 .order-operation {
-    /* padding: 0 2rem; */
+    display: flex;
+    justify-content: center;
     position: relative;
 }
 
@@ -711,7 +719,7 @@ p {
 }
 
 .order-operation__img {
-    width: 100%;
+    width: 80%;
 }
 
 .order-operation__body {
