@@ -932,3 +932,48 @@ p {
 .btn-container.show {
     opacity: 1;
 }
+
+.download-methods {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-method_link {
+    width: 50%;
+}
+
+.download-method_img {
+    width: 100%;
+}
+
+
+.info-section {
+    margin-bottom: 6rem;
+}
+
+.info-section__heading {
+    background: #ffd7ef;
+}
+
+.info-section__heading {
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.info-section__header {
+    text-align: left;
+}
+
+.article__header {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.article__body {
+    font-size: 2rem;
+    line-height: 1.5;
+}
